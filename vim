@@ -32,7 +32,7 @@ class VimExec(object):
 
 
     def vim_f5(self):
-        call('echo f5');
+        call('python bulle_server.py');
 
     def vim_f6(self):
         call('echo f6');
