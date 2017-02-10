@@ -35,7 +35,7 @@ class VimExec(object):
         call('python bulle_server.py');
 
     def vim_f6(self):
-        call('echo f6');
+        call('python test.py');
 
 
 if __name__ == '__main__':
